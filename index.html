@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>resturant demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="rest.css">
+
+
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="hero-1">
+
+        <h1>
+          welcome to luxe Bistro
+        </h1>
+        <p>
+          Exquiste Dining experience
+        </p>
+        <a href="#reservationForm" class="reserve">
+          Reserve a table
+        </a>
+      </div>
+    </section>
+
+
+    <section class="about">
+      <div>
+        <h2>About Our Restaurant</h2>
+        <p>
+          Delish restaurant brings the finest Italian dishes from around the Italian peninsula. Our chefs craft each dish with passion and fresh traditional ingredients.
+        </p>
+
+
+      </div>
+    </section>
+
+    <section class="menu">
+       <div class="dishes">
+
+       <div class="img">
+        <img src="images/file_000000009c5c720a80c025e24c51d336.png">
+       </div> 
+
+        <div class="img">
+        <img src="images/file_000000006bc472438b26ec703cf87ac4.png">
+       </div> 
+
+        <div class="img">
+        <img src="images/file_00000000d4a072438fd235cafaf4690e.png">
+       </div> 
+      </div>
+
+      <div class="black">
+       <h2>Experience Italian Excellence</h2>
+       <p>Crafted with Tradition. Served with Passion.</p>
+      </div>
+
+      <div class="menu-lists">
+        <div class="menu-heading">
+          <h1>
+            our Menu
+          </h1>
+        </div>
+        
+
+        <div class="space"></div>
+
+        <div class="items">
+          <p class="ppp">Lemon Butter Garlic Salmon <span>$35</span></p>
+          <p class="sss">
+           Pan-seared Atlantic salmon finished with a silky lemon butter garlic sauce
+           </p>
+        </div>
+
+        <div class="items">
+          <p class="ppp">
+            Truffle Cream Spaghetti<span>$32</span>
+          </p> 
+          <p class="sss">
+            Fresh al dente spaghetti tossed in a rich parmesan cream sauce</p>
+        </div>
+
+        <div class="items">
+          <p class="ppp">Herb-Crusted Grilled Steak<span>$48</span></p> 
+          <p class="sss">
+            Tender, flame-grilled sirloin steak coated in a rosemary and thyme herb crust</p>
+        </div>
+      </div>
+    </section>
+
+     <div class="black">
+       
+      </div>
+
+    <section class="reservation">
+    <h2>Reserve a Table</h2>
+
+    <form id="reservationForm" class="form">
+
+        <div class="inputBox">
+            <input id="name" type="text" placeholder="Name" required>
+        </div>
+
+        <div class="inputBox">
+            <input id="email" type="email" placeholder="Email" required>
+        </div>
+
+        <div class="inputBox">
+            <input id="date" type="date" required>
+        </div>
+
+        <div class="inputBox-row">
+           <select id="time" required>
+            <option value="">Time</option>
+            <option value="8">8:00 AM</option>
+            <option value="9">9:00 AM</option>
+            <option value="10">10:00 AM</option>
+            <option value="11">11:00 AM</option>
+            <option value="12">12:00 PM</option>
+            <option value="13">1:00 PM</option>
+            <option value="14">2:00 PM</option>
+            <option value="15">3:00 PM</option>
+            <option value="16">4:00 PM</option>
+            <option value="17">5:00 PM</option>
+            <option value="18">6:00 PM</option>
+            <option value="19">7:00 PM</option>
+            <option value="20">8:00 PM</option>
+            <option value="21">9:00 PM</option>
+            <option value="22">10:00 PM</option>
+          </select>
+
+
+            <select id="guests" required>
+                <option value="">Guests</option>
+                <option>1 person</option>
+                <option>2 people</option>
+                <option>3 people</option>
+                <option>4 people</option>
+                <option>5+ people</option>
+            </select>
+        </div>
+
+        <div class="sub-con">
+            <button type="submit" class="sub-btn">
+                Book Now
+            </button>
+        </div>
+
+    </form>
+</section>
+
+    
+    <script src="rest.js"></script>
+  </body>
+</html>
